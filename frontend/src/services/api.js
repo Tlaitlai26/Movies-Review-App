@@ -14,5 +14,5 @@ export const reviews = {
   getByMovie: (movieId) => axios.get(`${API_URL}/reviews/${movieId}`),
   create: (data) => axios.post(`${API_URL}/reviews`, data),
   update: (id, data) => axios.put(`${API_URL}/reviews/${id}`, data),
-  remove: (id) => axios.delete(`${API_URL}/reviews/${id}`)
+  cremove: (id) => axios.delete(`${API_URL}/reviews/${id}`)
 };
