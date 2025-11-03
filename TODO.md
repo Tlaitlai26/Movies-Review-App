@@ -1,0 +1,4 @@
+- [x] Update mockMovies in server/index.js with real poster URLs for Batman movies
+- [x] Restart the server to apply changes
+- [ ] Test the movie list page to ensure posters display
+- [x] Fix 404 error for reviews.getAll() by adding GET /reviews endpoint in server

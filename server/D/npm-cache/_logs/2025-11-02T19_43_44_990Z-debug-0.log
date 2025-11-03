@@ -1,0 +1,319 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\server\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install axios
+8 verbose argv "install" "axios"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T19_43_44_990Z-
+10 verbose logfile C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T19_43_44_990Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest axios@*
+15 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/axios 980ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+18 silly placeDep ROOT axios@1.13.1 OK for: server@1.0.0 want: *
+19 silly fetch manifest form-data@^4.0.4
+20 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+21 silly fetch manifest proxy-from-env@^1.1.0
+22 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+23 silly fetch manifest follow-redirects@^1.15.6
+24 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 195ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+27 http fetch GET 200 https://registry.npmjs.org/follow-redirects 385ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/form-data 449ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/form-data set size:137336 disposed:false
+31 silly placeDep ROOT follow-redirects@1.15.11 OK for: axios@1.13.1 want: ^1.15.6
+32 silly placeDep node_modules/axios form-data@4.0.4 OK for: axios@1.13.1 want: ^4.0.4
+33 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.13.1 want: ^1.1.0
+34 silly fetch manifest mime-types@^2.1.12
+35 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/mime-types 125ms (cache revalidated)
+37 silly packumentCache full:https://registry.npmjs.org/mime-types set size:136716 disposed:false
+38 silly placeDep node_modules/axios mime-types@2.1.35 OK for: form-data@4.0.4 want: ^2.1.12
+39 silly fetch manifest mime-db@1.52.0
+40 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/mime-db 107ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/mime-db set size:164953 disposed:false
+43 silly placeDep node_modules/axios mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+44 silly reify moves {}
+45 silly audit bulk request {
+45 silly audit   '@fastify/busboy': [ '3.2.0' ],
+45 silly audit   '@firebase/app-check-interop-types': [ '0.3.3' ],
+45 silly audit   '@firebase/app-types': [ '0.9.3' ],
+45 silly audit   '@firebase/auth-interop-types': [ '0.2.4' ],
+45 silly audit   '@firebase/component': [ '0.7.0' ],
+45 silly audit   '@firebase/database': [ '1.1.0' ],
+45 silly audit   '@firebase/database-compat': [ '2.1.0' ],
+45 silly audit   '@firebase/database-types': [ '1.0.16' ],
+45 silly audit   '@firebase/logger': [ '0.5.0' ],
+45 silly audit   '@firebase/util': [ '1.13.0' ],
+45 silly audit   '@google-cloud/firestore': [ '7.11.6' ],
+45 silly audit   '@google-cloud/paginator': [ '5.0.2' ],
+45 silly audit   '@google-cloud/projectify': [ '4.0.0' ],
+45 silly audit   '@google-cloud/promisify': [ '4.0.0' ],
+45 silly audit   '@google-cloud/storage': [ '7.17.2' ],
+45 silly audit   uuid: [ '8.3.2', '9.0.1', '11.1.0' ],
+45 silly audit   '@grpc/grpc-js': [ '1.14.0' ],
+45 silly audit   '@grpc/proto-loader': [ '0.8.0', '0.7.15' ],
+45 silly audit   '@js-sdsl/ordered-map': [ '4.4.2' ],
+45 silly audit   '@opentelemetry/api': [ '1.9.0' ],
+45 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+45 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+45 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+45 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+45 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+45 silly audit   '@protobufjs/float': [ '1.0.2' ],
+45 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+45 silly audit   '@protobufjs/path': [ '1.1.2' ],
+45 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+45 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+45 silly audit   '@tootallnate/once': [ '2.0.0' ],
+45 silly audit   '@types/body-parser': [ '1.19.6' ],
+45 silly audit   '@types/caseless': [ '0.12.5' ],
+45 silly audit   '@types/connect': [ '3.4.38' ],
+45 silly audit   '@types/express': [ '4.17.25' ],
+45 silly audit   '@types/express-serve-static-core': [ '4.19.7' ],
+45 silly audit   '@types/http-errors': [ '2.0.5' ],
+45 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+45 silly audit   '@types/long': [ '4.0.2' ],
+45 silly audit   '@types/mime': [ '1.3.5' ],
+45 silly audit   '@types/ms': [ '2.1.0' ],
+45 silly audit   '@types/node': [ '22.18.13' ],
+45 silly audit   '@types/qs': [ '6.14.0' ],
+45 silly audit   '@types/range-parser': [ '1.2.7' ],
+45 silly audit   '@types/request': [ '2.48.13' ],
+45 silly audit   '@types/send': [ '1.2.1', '0.17.6' ],
+45 silly audit   '@types/serve-static': [ '1.15.10' ],
+45 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+45 silly audit   'abort-controller': [ '3.0.0' ],
+45 silly audit   accepts: [ '2.0.0' ],
+45 silly audit   'agent-base': [ '7.1.4', '6.0.2' ],
+45 silly audit   'ansi-regex': [ '5.0.1' ],
+45 silly audit   'ansi-styles': [ '4.3.0' ],
+45 silly audit   anymatch: [ '3.1.3' ],
+45 silly audit   arrify: [ '2.0.1' ],
+45 silly audit   'async-retry': [ '1.3.3' ],
+45 silly audit   asynckit: [ '0.4.0' ],
+45 silly audit   'balanced-match': [ '1.0.2' ],
+45 silly audit   'base64-js': [ '1.5.1' ],
+45 silly audit   'bignumber.js': [ '9.3.1' ],
+45 silly audit   'binary-extensions': [ '2.3.0' ],
+45 silly audit   'body-parser': [ '2.2.0' ],
+45 silly audit   'brace-expansion': [ '1.1.12' ],
+45 silly audit   braces: [ '3.0.3' ],
+45 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+45 silly audit   bytes: [ '3.1.2' ],
+45 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+45 silly audit   'call-bound': [ '1.0.4' ],
+45 silly audit   chokidar: [ '3.6.0' ],
+45 silly audit   cliui: [ '8.0.1' ],
+45 silly audit   'color-convert': [ '2.0.1' ],
+45 silly audit   'color-name': [ '1.1.4' ],
+45 silly audit   'combined-stream': [ '1.0.8' ],
+45 silly audit   'concat-map': [ '0.0.1' ],
+45 silly audit   'content-disposition': [ '1.0.0' ],
+45 silly audit   'content-type': [ '1.0.5' ],
+45 silly audit   cookie: [ '0.7.2' ],
+45 silly audit   'cookie-signature': [ '1.2.2' ],
+45 silly audit   cors: [ '2.8.5' ],
+45 silly audit   debug: [ '4.4.3' ],
+45 silly audit   'delayed-stream': [ '1.0.0' ],
+45 silly audit   depd: [ '2.0.0' ],
+45 silly audit   dotenv: [ '17.2.3' ],
+45 silly audit   'dunder-proto': [ '1.0.1' ],
+45 silly audit   duplexify: [ '4.1.3' ],
+45 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+45 silly audit   'ee-first': [ '1.1.1' ],
+45 silly audit   'emoji-regex': [ '8.0.0' ],
+45 silly audit   encodeurl: [ '2.0.0' ],
+45 silly audit   'end-of-stream': [ '1.4.5' ],
+45 silly audit   'es-define-property': [ '1.0.1' ],
+45 silly audit   'es-errors': [ '1.3.0' ],
+45 silly audit   'es-object-atoms': [ '1.1.1' ],
+45 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+45 silly audit   escalade: [ '3.2.0' ],
+45 silly audit   'escape-html': [ '1.0.3' ],
+45 silly audit   etag: [ '1.8.1' ],
+45 silly audit   'event-target-shim': [ '5.0.1' ],
+45 silly audit   express: [ '5.1.0' ],
+45 silly audit   extend: [ '3.0.2' ],
+45 silly audit   'farmhash-modern': [ '1.1.0' ],
+45 silly audit   'fast-deep-equal': [ '3.1.3' ],
+45 silly audit   'fast-xml-parser': [ '4.5.3' ],
+45 silly audit   'faye-websocket': [ '0.11.4' ],
+45 silly audit   'fill-range': [ '7.1.1' ],
+45 silly audit   finalhandler: [ '2.1.0' ],
+45 silly audit   'firebase-admin': [ '13.5.0' ],
+45 silly audit   'form-data': [ '2.5.5', '4.0.4' ],
+45 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+45 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+45 silly audit   forwarded: [ '0.2.0' ],
+45 silly audit   fresh: [ '2.0.0' ],
+45 silly audit   fsevents: [ '2.3.3' ],
+45 silly audit   'function-bind': [ '1.1.2' ],
+45 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+45 silly audit   gaxios: [ '6.7.1' ],
+45 silly audit   'gcp-metadata': [ '6.1.1' ],
+45 silly audit   'get-caller-file': [ '2.0.5' ],
+45 silly audit   'get-intrinsic': [ '1.3.0' ],
+45 silly audit   'get-proto': [ '1.0.1' ],
+45 silly audit   'glob-parent': [ '5.1.2' ],
+45 silly audit   'google-auth-library': [ '9.15.1' ],
+45 silly audit   'google-gax': [ '4.6.1' ],
+45 silly audit   'google-logging-utils': [ '0.0.2' ],
+45 silly audit   gopd: [ '1.2.0' ],
+45 silly audit   gtoken: [ '7.1.0' ],
+45 silly audit   'has-flag': [ '3.0.0' ],
+45 silly audit   'has-symbols': [ '1.1.0' ],
+45 silly audit   'has-tostringtag': [ '1.0.2' ],
+45 silly audit   hasown: [ '2.0.2' ],
+45 silly audit   'html-entities': [ '2.6.0' ],
+45 silly audit   'http-errors': [ '2.0.0' ],
+45 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+45 silly audit   'http-parser-js': [ '0.5.10' ],
+45 silly audit   'http-proxy-agent': [ '5.0.0' ],
+45 silly audit   'https-proxy-agent': [ '7.0.6', '5.0.1' ],
+45 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+45 silly audit   'ignore-by-default': [ '1.0.1' ],
+45 silly audit   inherits: [ '2.0.4' ],
+45 silly audit   'ipaddr.js': [ '1.9.1' ],
+45 silly audit   'is-binary-path': [ '2.1.0' ],
+45 silly audit   'is-extglob': [ '2.1.1' ],
+45 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+45 silly audit   'is-glob': [ '4.0.3' ],
+45 silly audit   'is-number': [ '7.0.0' ],
+45 silly audit   'is-promise': [ '4.0.0' ],
+45 silly audit   'is-stream': [ '2.0.1' ],
+45 silly audit   jose: [ '4.15.9' ],
+45 silly audit   'json-bigint': [ '1.0.0' ],
+45 silly audit   jsonwebtoken: [ '9.0.2' ],
+45 silly audit   jwa: [ '1.4.2', '2.0.1' ],
+45 silly audit   jws: [ '3.2.2', '4.0.0' ],
+45 silly audit   'jwks-rsa': [ '3.2.0' ],
+45 silly audit   limiter: [ '1.1.5' ],
+45 silly audit   'lodash.camelcase': [ '4.3.0' ],
+45 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+45 silly audit   'lodash.includes': [ '4.3.0' ],
+45 silly audit   'lodash.isboolean': [ '3.0.3' ],
+45 silly audit   'lodash.isinteger': [ '4.0.4' ],
+45 silly audit   'lodash.isnumber': [ '3.0.3' ],
+45 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+45 silly audit   'lodash.isstring': [ '4.0.1' ],
+45 silly audit   'lodash.once': [ '4.1.1' ],
+45 silly audit   long: [ '5.3.2' ],
+45 silly audit   'lru-cache': [ '6.0.0' ],
+45 silly audit   'lru-memoizer': [ '2.3.0' ],
+45 silly audit   'math-intrinsics': [ '1.1.0' ],
+45 silly audit   'media-typer': [ '1.1.0' ],
+45 silly audit   'merge-descriptors': [ '2.0.0' ],
+45 silly audit   mime: [ '3.0.0' ],
+45 silly audit   minimatch: [ '3.1.2' ],
+45 silly audit   ms: [ '2.1.3' ],
+45 silly audit   negotiator: [ '1.0.0' ],
+45 silly audit   'node-fetch': [ '2.7.0' ],
+45 silly audit   'node-forge': [ '1.3.1' ],
+45 silly audit   nodemon: [ '3.1.10' ],
+45 silly audit   'normalize-path': [ '3.0.0' ],
+45 silly audit   'object-assign': [ '4.1.1' ],
+45 silly audit   'object-hash': [ '3.0.0' ],
+45 silly audit   'object-inspect': [ '1.13.4' ],
+45 silly audit   'on-finished': [ '2.4.1' ],
+45 silly audit   once: [ '1.4.0' ],
+45 silly audit   'p-limit': [ '3.1.0' ],
+45 silly audit   parseurl: [ '1.3.3' ],
+45 silly audit   'path-to-regexp': [ '8.3.0' ],
+45 silly audit   picomatch: [ '2.3.1' ],
+45 silly audit   'proto3-json-serializer': [ '2.0.2' ],
+45 silly audit   protobufjs: [ '7.5.4' ],
+45 silly audit   'proxy-addr': [ '2.0.7' ],
+45 silly audit   'pstree.remy': [ '1.1.8' ],
+45 silly audit   qs: [ '6.14.0' ],
+45 silly audit   'range-parser': [ '1.2.1' ],
+45 silly audit   'raw-body': [ '3.0.1' ],
+45 silly audit   'readable-stream': [ '3.6.2' ],
+45 silly audit   readdirp: [ '3.6.0' ],
+45 silly audit   'require-directory': [ '2.1.1' ],
+45 silly audit   retry: [ '0.13.1' ],
+45 silly audit   'retry-request': [ '7.0.2' ],
+45 silly audit   router: [ '2.2.0' ],
+45 silly audit   'safe-buffer': [ '5.2.1' ],
+45 silly audit   'safer-buffer': [ '2.1.2' ],
+45 silly audit   semver: [ '7.7.3' ],
+45 silly audit   send: [ '1.2.0' ],
+45 silly audit   'serve-static': [ '2.2.0' ],
+45 silly audit   setprototypeof: [ '1.2.0' ],
+45 silly audit   'side-channel': [ '1.1.0' ],
+45 silly audit   'side-channel-list': [ '1.0.0' ],
+45 silly audit   'side-channel-map': [ '1.0.1' ],
+45 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+45 silly audit   'simple-update-notifier': [ '2.0.0' ],
+45 silly audit   'stream-events': [ '1.0.5' ],
+45 silly audit   'stream-shift': [ '1.0.3' ],
+45 silly audit   string_decoder: [ '1.3.0' ],
+45 silly audit   'string-width': [ '4.2.3' ],
+45 silly audit   'strip-ansi': [ '6.0.1' ],
+45 silly audit   strnum: [ '1.1.2' ],
+45 silly audit   stubs: [ '3.0.0' ],
+45 silly audit   'supports-color': [ '5.5.0' ],
+45 silly audit   'teeny-request': [ '9.0.0' ],
+45 silly audit   'to-regex-range': [ '5.0.1' ],
+45 silly audit   toidentifier: [ '1.0.1' ],
+45 silly audit   touch: [ '3.1.1' ],
+45 silly audit   tr46: [ '0.0.3' ],
+45 silly audit   tslib: [ '2.8.1' ],
+45 silly audit   'type-is': [ '2.0.1' ],
+45 silly audit   undefsafe: [ '2.0.5' ],
+45 silly audit   'undici-types': [ '6.21.0' ],
+45 silly audit   unpipe: [ '1.0.0' ],
+45 silly audit   'util-deprecate': [ '1.0.2' ],
+45 silly audit   vary: [ '1.1.2' ],
+45 silly audit   'webidl-conversions': [ '3.0.1' ],
+45 silly audit   'websocket-driver': [ '0.7.4' ],
+45 silly audit   'websocket-extensions': [ '0.1.4' ],
+45 silly audit   'whatwg-url': [ '5.0.0' ],
+45 silly audit   'wrap-ansi': [ '7.0.0' ],
+45 silly audit   wrappy: [ '1.0.2' ],
+45 silly audit   y18n: [ '5.0.8' ],
+45 silly audit   yallist: [ '4.0.0' ],
+45 silly audit   yargs: [ '17.7.2' ],
+45 silly audit   'yargs-parser': [ '21.1.1' ],
+45 silly audit   'yocto-queue': [ '0.1.0' ],
+45 silly audit   axios: [ '1.13.1' ],
+45 silly audit   'follow-redirects': [ '1.15.11' ],
+45 silly audit   'proxy-from-env': [ '1.1.0' ]
+45 silly audit }
+46 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 1ms (cache hit)
+47 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 0ms (cache hit)
+48 http cache axios@https://registry.npmjs.org/axios/-/axios-1.13.1.tgz 0ms (cache hit)
+49 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 1ms (cache hit)
+50 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+51 http cache form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 0ms (cache hit)
+52 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+53 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+54 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.13.1.tgz. Extracting by manifest.
+55 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz. Extracting by manifest.
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 471ms
+57 silly audit report {}
+58 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 429ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 456ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.4.tgz 739ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.13.1.tgz 1974ms (cache miss)
+62 silly ADD node_modules/proxy-from-env
+63 silly ADD node_modules/follow-redirects
+64 silly ADD node_modules/axios
+65 silly ADD node_modules/axios/node_modules/mime-db
+66 silly ADD node_modules/axios/node_modules/mime-types
+67 silly ADD node_modules/axios/node_modules/form-data
+68 verbose cwd C:\dev\movie-review-app\server
+69 verbose os Windows_NT 10.0.26100
+70 verbose node v24.11.0
+71 verbose npm  v11.6.1
+72 verbose exit 0
+73 info ok

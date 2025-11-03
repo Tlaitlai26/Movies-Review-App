@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\frontend\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm list react-router-dom
+8 verbose argv "list" "react-router-dom"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\frontend\D\npm-cache\_logs\2025-11-02T20_16_57_005Z-
+10 verbose logfile C:\dev\movie-review-app\frontend\D\npm-cache\_logs\2025-11-02T20_16_57_005Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 verbose cwd C:\dev\movie-review-app\frontend
+15 verbose os Windows_NT 10.0.26100
+16 verbose node v24.11.0
+17 verbose npm  v11.6.1
+18 verbose exit 0
+19 info ok

@@ -1,0 +1,520 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\server\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install nodemon
+8 verbose argv "install" "--save-dev" "nodemon"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T17_09_55_161Z-
+10 verbose logfile C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T17_09_55_161Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest nodemon@*
+15 silly packumentCache full:https://registry.npmjs.org/nodemon cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/nodemon 919ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/nodemon set size:undefined disposed:false
+18 silly placeDep ROOT nodemon@3.1.10 OK for: server@1.0.0 want: *
+19 silly fetch manifest touch@^3.1.0
+20 silly packumentCache full:https://registry.npmjs.org/touch cache-miss
+21 silly fetch manifest chokidar@^3.5.2
+22 silly packumentCache full:https://registry.npmjs.org/chokidar cache-miss
+23 silly fetch manifest minimatch@^3.1.2
+24 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/touch 157ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/touch set size:undefined disposed:false
+27 silly fetch manifest undefsafe@^2.0.5
+28 silly packumentCache full:https://registry.npmjs.org/undefsafe cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/undefsafe 128ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/undefsafe set size:undefined disposed:false
+31 silly fetch manifest pstree.remy@^1.1.8
+32 silly packumentCache full:https://registry.npmjs.org/pstree.remy cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/pstree.remy 110ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/pstree.remy set size:undefined disposed:false
+35 silly fetch manifest supports-color@^5.5.0
+36 silly packumentCache full:https://registry.npmjs.org/supports-color cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/chokidar 510ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/chokidar set size:undefined disposed:false
+39 silly fetch manifest ignore-by-default@^1.0.1
+40 silly packumentCache full:https://registry.npmjs.org/ignore-by-default cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/supports-color 337ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/supports-color set size:undefined disposed:false
+43 silly fetch manifest simple-update-notifier@^2.0.0
+44 silly packumentCache full:https://registry.npmjs.org/simple-update-notifier cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/minimatch 755ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/minimatch set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/ignore-by-default 245ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/ignore-by-default set size:undefined disposed:false
+49 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier 356ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/simple-update-notifier set size:undefined disposed:false
+51 silly placeDep ROOT chokidar@3.6.0 OK for: nodemon@3.1.10 want: ^3.5.2
+52 silly placeDep ROOT ignore-by-default@1.0.1 OK for: nodemon@3.1.10 want: ^1.0.1
+53 silly placeDep ROOT minimatch@3.1.2 OK for: nodemon@3.1.10 want: ^3.1.2
+54 silly placeDep ROOT pstree.remy@1.1.8 OK for: nodemon@3.1.10 want: ^1.1.8
+55 silly placeDep ROOT simple-update-notifier@2.0.0 OK for: nodemon@3.1.10 want: ^2.0.0
+56 silly placeDep ROOT supports-color@5.5.0 OK for: nodemon@3.1.10 want: ^5.5.0
+57 silly placeDep ROOT touch@3.1.1 OK for: nodemon@3.1.10 want: ^3.1.0
+58 silly placeDep ROOT undefsafe@2.0.5 OK for: nodemon@3.1.10 want: ^2.0.5
+59 silly fetch manifest braces@~3.0.2
+60 silly packumentCache full:https://registry.npmjs.org/braces cache-miss
+61 silly fetch manifest is-glob@~4.0.1
+62 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+63 silly fetch manifest anymatch@~3.1.2
+64 silly packumentCache full:https://registry.npmjs.org/anymatch cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/anymatch 178ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/anymatch set size:undefined disposed:false
+67 silly fetch manifest readdirp@~3.6.0
+68 silly packumentCache full:https://registry.npmjs.org/readdirp cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/is-glob 187ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/is-glob set size:undefined disposed:false
+71 silly fetch manifest glob-parent@~5.1.2
+72 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/braces 194ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/braces set size:undefined disposed:false
+75 silly fetch manifest is-binary-path@~2.1.0
+76 silly packumentCache full:https://registry.npmjs.org/is-binary-path cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/readdirp 106ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/readdirp set size:undefined disposed:false
+79 silly fetch manifest normalize-path@~3.0.0
+80 silly packumentCache full:https://registry.npmjs.org/normalize-path cache-miss
+81 http fetch GET 200 https://registry.npmjs.org/glob-parent 117ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:undefined disposed:false
+83 silly fetch manifest fsevents@~2.3.2
+84 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+85 http fetch GET 200 https://registry.npmjs.org/is-binary-path 114ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/is-binary-path set size:undefined disposed:false
+87 silly fetch manifest brace-expansion@^1.1.7
+88 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/normalize-path 146ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/normalize-path set size:undefined disposed:false
+91 silly fetch manifest has-flag@^3.0.0
+92 silly packumentCache full:https://registry.npmjs.org/has-flag cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/brace-expansion 156ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:undefined disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/fsevents 175ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/has-flag 178ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/has-flag set size:undefined disposed:false
+99 silly placeDep ROOT anymatch@3.1.3 OK for: chokidar@3.6.0 want: ~3.1.2
+100 silly placeDep ROOT braces@3.0.3 OK for: chokidar@3.6.0 want: ~3.0.2
+101 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+102 silly placeDep ROOT glob-parent@5.1.2 OK for: chokidar@3.6.0 want: ~5.1.2
+103 silly placeDep ROOT is-binary-path@2.1.0 OK for: chokidar@3.6.0 want: ~2.1.0
+104 silly placeDep ROOT is-glob@4.0.3 OK for: chokidar@3.6.0 want: ~4.0.1
+105 silly placeDep ROOT normalize-path@3.0.0 OK for: chokidar@3.6.0 want: ~3.0.0
+106 silly placeDep ROOT readdirp@3.6.0 OK for: chokidar@3.6.0 want: ~3.6.0
+107 silly fetch manifest picomatch@^2.0.4
+108 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+109 silly fetch manifest normalize-path@^3.0.0
+110 silly packumentCache full:https://registry.npmjs.org/normalize-path cache-miss
+111 silly fetch manifest fill-range@^7.1.1
+112 silly packumentCache full:https://registry.npmjs.org/fill-range cache-miss
+113 http cache https://registry.npmjs.org/normalize-path 23ms (cache hit)
+114 silly packumentCache full:https://registry.npmjs.org/normalize-path set size:28713 disposed:false
+115 silly fetch manifest is-glob@^4.0.1
+116 silly packumentCache full:https://registry.npmjs.org/is-glob cache-miss
+117 http cache https://registry.npmjs.org/is-glob 7ms (cache hit)
+118 silly packumentCache full:https://registry.npmjs.org/is-glob set size:40530 disposed:false
+119 silly fetch manifest binary-extensions@^2.0.0
+120 silly packumentCache full:https://registry.npmjs.org/binary-extensions cache-miss
+121 http fetch GET 200 https://registry.npmjs.org/fill-range 115ms (cache miss)
+122 silly packumentCache full:https://registry.npmjs.org/fill-range set size:undefined disposed:false
+123 silly fetch manifest is-extglob@^2.1.1
+124 silly packumentCache full:https://registry.npmjs.org/is-extglob cache-miss
+125 http fetch GET 200 https://registry.npmjs.org/binary-extensions 150ms (cache miss)
+126 silly packumentCache full:https://registry.npmjs.org/binary-extensions set size:undefined disposed:false
+127 silly fetch manifest picomatch@^2.2.1
+128 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+129 http fetch GET 200 https://registry.npmjs.org/picomatch 292ms (cache miss)
+130 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+131 http fetch GET 200 https://registry.npmjs.org/is-extglob 180ms (cache miss)
+132 silly packumentCache full:https://registry.npmjs.org/is-extglob set size:undefined disposed:false
+133 http fetch GET 200 https://registry.npmjs.org/picomatch 222ms (cache miss)
+134 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+135 silly placeDep ROOT picomatch@2.3.1 OK for: anymatch@3.1.3 want: ^2.0.4
+136 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+137 silly fetch manifest to-regex-range@^5.0.1
+138 silly packumentCache full:https://registry.npmjs.org/to-regex-range cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/to-regex-range 117ms (cache miss)
+140 silly packumentCache full:https://registry.npmjs.org/to-regex-range set size:undefined disposed:false
+141 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+142 silly fetch manifest is-number@^7.0.0
+143 silly packumentCache full:https://registry.npmjs.org/is-number cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/is-number 134ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/is-number set size:undefined disposed:false
+146 silly placeDep ROOT binary-extensions@2.3.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+147 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+148 silly placeDep ROOT brace-expansion@1.1.12 OK for: minimatch@3.1.2 want: ^1.1.7
+149 silly fetch manifest balanced-match@^1.0.0
+150 silly packumentCache full:https://registry.npmjs.org/balanced-match cache-miss
+151 silly fetch manifest concat-map@0.0.1
+152 silly packumentCache full:https://registry.npmjs.org/concat-map cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/concat-map 128ms (cache miss)
+154 silly packumentCache full:https://registry.npmjs.org/concat-map set size:undefined disposed:false
+155 http fetch GET 200 https://registry.npmjs.org/balanced-match 158ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/balanced-match set size:undefined disposed:false
+157 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.12 want: ^1.0.0
+158 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.12 want: 0.0.1
+159 silly placeDep ROOT has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+160 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+161 silly reify moves {}
+162 silly audit bulk request {
+162 silly audit   '@fastify/busboy': [ '3.2.0' ],
+162 silly audit   '@firebase/app-check-interop-types': [ '0.3.3' ],
+162 silly audit   '@firebase/app-types': [ '0.9.3' ],
+162 silly audit   '@firebase/auth-interop-types': [ '0.2.4' ],
+162 silly audit   '@firebase/component': [ '0.7.0' ],
+162 silly audit   '@firebase/database': [ '1.1.0' ],
+162 silly audit   '@firebase/database-compat': [ '2.1.0' ],
+162 silly audit   '@firebase/database-types': [ '1.0.16' ],
+162 silly audit   '@firebase/logger': [ '0.5.0' ],
+162 silly audit   '@firebase/util': [ '1.13.0' ],
+162 silly audit   '@google-cloud/firestore': [ '7.11.6' ],
+162 silly audit   '@google-cloud/paginator': [ '5.0.2' ],
+162 silly audit   '@google-cloud/projectify': [ '4.0.0' ],
+162 silly audit   '@google-cloud/promisify': [ '4.0.0' ],
+162 silly audit   '@google-cloud/storage': [ '7.17.2' ],
+162 silly audit   uuid: [ '8.3.2', '9.0.1', '11.1.0' ],
+162 silly audit   '@grpc/grpc-js': [ '1.14.0' ],
+162 silly audit   '@grpc/proto-loader': [ '0.8.0', '0.7.15' ],
+162 silly audit   '@js-sdsl/ordered-map': [ '4.4.2' ],
+162 silly audit   '@opentelemetry/api': [ '1.9.0' ],
+162 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+162 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+162 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+162 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+162 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+162 silly audit   '@protobufjs/float': [ '1.0.2' ],
+162 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+162 silly audit   '@protobufjs/path': [ '1.1.2' ],
+162 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+162 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+162 silly audit   '@tootallnate/once': [ '2.0.0' ],
+162 silly audit   '@types/body-parser': [ '1.19.6' ],
+162 silly audit   '@types/caseless': [ '0.12.5' ],
+162 silly audit   '@types/connect': [ '3.4.38' ],
+162 silly audit   '@types/express': [ '4.17.25' ],
+162 silly audit   '@types/express-serve-static-core': [ '4.19.7' ],
+162 silly audit   '@types/http-errors': [ '2.0.5' ],
+162 silly audit   '@types/jsonwebtoken': [ '9.0.10' ],
+162 silly audit   '@types/long': [ '4.0.2' ],
+162 silly audit   '@types/mime': [ '1.3.5' ],
+162 silly audit   '@types/ms': [ '2.1.0' ],
+162 silly audit   '@types/node': [ '22.18.13' ],
+162 silly audit   '@types/qs': [ '6.14.0' ],
+162 silly audit   '@types/range-parser': [ '1.2.7' ],
+162 silly audit   '@types/request': [ '2.48.13' ],
+162 silly audit   '@types/send': [ '1.2.1', '0.17.6' ],
+162 silly audit   '@types/serve-static': [ '1.15.10' ],
+162 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+162 silly audit   'abort-controller': [ '3.0.0' ],
+162 silly audit   accepts: [ '2.0.0' ],
+162 silly audit   'agent-base': [ '7.1.4', '6.0.2' ],
+162 silly audit   'ansi-regex': [ '5.0.1' ],
+162 silly audit   'ansi-styles': [ '4.3.0' ],
+162 silly audit   arrify: [ '2.0.1' ],
+162 silly audit   'async-retry': [ '1.3.3' ],
+162 silly audit   asynckit: [ '0.4.0' ],
+162 silly audit   'base64-js': [ '1.5.1' ],
+162 silly audit   'bignumber.js': [ '9.3.1' ],
+162 silly audit   'body-parser': [ '2.2.0' ],
+162 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+162 silly audit   bytes: [ '3.1.2' ],
+162 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+162 silly audit   'call-bound': [ '1.0.4' ],
+162 silly audit   cliui: [ '8.0.1' ],
+162 silly audit   'color-convert': [ '2.0.1' ],
+162 silly audit   'color-name': [ '1.1.4' ],
+162 silly audit   'combined-stream': [ '1.0.8' ],
+162 silly audit   'content-disposition': [ '1.0.0' ],
+162 silly audit   'content-type': [ '1.0.5' ],
+162 silly audit   cookie: [ '0.7.2' ],
+162 silly audit   'cookie-signature': [ '1.2.2' ],
+162 silly audit   cors: [ '2.8.5' ],
+162 silly audit   debug: [ '4.4.3' ],
+162 silly audit   'delayed-stream': [ '1.0.0' ],
+162 silly audit   depd: [ '2.0.0' ],
+162 silly audit   dotenv: [ '17.2.3' ],
+162 silly audit   'dunder-proto': [ '1.0.1' ],
+162 silly audit   duplexify: [ '4.1.3' ],
+162 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+162 silly audit   'ee-first': [ '1.1.1' ],
+162 silly audit   'emoji-regex': [ '8.0.0' ],
+162 silly audit   encodeurl: [ '2.0.0' ],
+162 silly audit   'end-of-stream': [ '1.4.5' ],
+162 silly audit   'es-define-property': [ '1.0.1' ],
+162 silly audit   'es-errors': [ '1.3.0' ],
+162 silly audit   'es-object-atoms': [ '1.1.1' ],
+162 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+162 silly audit   escalade: [ '3.2.0' ],
+162 silly audit   'escape-html': [ '1.0.3' ],
+162 silly audit   etag: [ '1.8.1' ],
+162 silly audit   'event-target-shim': [ '5.0.1' ],
+162 silly audit   express: [ '5.1.0' ],
+162 silly audit   extend: [ '3.0.2' ],
+162 silly audit   'farmhash-modern': [ '1.1.0' ],
+162 silly audit   'fast-deep-equal': [ '3.1.3' ],
+162 silly audit   'fast-xml-parser': [ '4.5.3' ],
+162 silly audit   'faye-websocket': [ '0.11.4' ],
+162 silly audit   finalhandler: [ '2.1.0' ],
+162 silly audit   'firebase-admin': [ '13.5.0' ],
+162 silly audit   'form-data': [ '2.5.5' ],
+162 silly audit   'mime-db': [ '1.52.0', '1.54.0' ],
+162 silly audit   'mime-types': [ '2.1.35', '3.0.1' ],
+162 silly audit   forwarded: [ '0.2.0' ],
+162 silly audit   fresh: [ '2.0.0' ],
+162 silly audit   'function-bind': [ '1.1.2' ],
+162 silly audit   'functional-red-black-tree': [ '1.0.1' ],
+162 silly audit   gaxios: [ '6.7.1' ],
+162 silly audit   'gcp-metadata': [ '6.1.1' ],
+162 silly audit   'get-caller-file': [ '2.0.5' ],
+162 silly audit   'get-intrinsic': [ '1.3.0' ],
+162 silly audit   'get-proto': [ '1.0.1' ],
+162 silly audit   'google-auth-library': [ '9.15.1' ],
+162 silly audit   'google-gax': [ '4.6.1' ],
+162 silly audit   'google-logging-utils': [ '0.0.2' ],
+162 silly audit   gopd: [ '1.2.0' ],
+162 silly audit   gtoken: [ '7.1.0' ],
+162 silly audit   'has-symbols': [ '1.1.0' ],
+162 silly audit   'has-tostringtag': [ '1.0.2' ],
+162 silly audit   hasown: [ '2.0.2' ],
+162 silly audit   'html-entities': [ '2.6.0' ],
+162 silly audit   'http-errors': [ '2.0.0' ],
+162 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+162 silly audit   'http-parser-js': [ '0.5.10' ],
+162 silly audit   'http-proxy-agent': [ '5.0.0' ],
+162 silly audit   'https-proxy-agent': [ '7.0.6', '5.0.1' ],
+162 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+162 silly audit   inherits: [ '2.0.4' ],
+162 silly audit   'ipaddr.js': [ '1.9.1' ],
+162 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+162 silly audit   'is-promise': [ '4.0.0' ],
+162 silly audit   'is-stream': [ '2.0.1' ],
+162 silly audit   jose: [ '4.15.9' ],
+162 silly audit   'json-bigint': [ '1.0.0' ],
+162 silly audit   jsonwebtoken: [ '9.0.2' ],
+162 silly audit   jwa: [ '1.4.2', '2.0.1' ],
+162 silly audit   jws: [ '3.2.2', '4.0.0' ],
+162 silly audit   'jwks-rsa': [ '3.2.0' ],
+162 silly audit   limiter: [ '1.1.5' ],
+162 silly audit   'lodash.camelcase': [ '4.3.0' ],
+162 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+162 silly audit   'lodash.includes': [ '4.3.0' ],
+162 silly audit   'lodash.isboolean': [ '3.0.3' ],
+162 silly audit   'lodash.isinteger': [ '4.0.4' ],
+162 silly audit   'lodash.isnumber': [ '3.0.3' ],
+162 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+162 silly audit   'lodash.isstring': [ '4.0.1' ],
+162 silly audit   'lodash.once': [ '4.1.1' ],
+162 silly audit   long: [ '5.3.2' ],
+162 silly audit   'lru-cache': [ '6.0.0' ],
+162 silly audit   'lru-memoizer': [ '2.3.0' ],
+162 silly audit   'math-intrinsics': [ '1.1.0' ],
+162 silly audit   'media-typer': [ '1.1.0' ],
+162 silly audit   'merge-descriptors': [ '2.0.0' ],
+162 silly audit   mime: [ '3.0.0' ],
+162 silly audit   ms: [ '2.1.3' ],
+162 silly audit   negotiator: [ '1.0.0' ],
+162 silly audit   'node-fetch': [ '2.7.0' ],
+162 silly audit   'node-forge': [ '1.3.1' ],
+162 silly audit   'object-assign': [ '4.1.1' ],
+162 silly audit   'object-hash': [ '3.0.0' ],
+162 silly audit   'object-inspect': [ '1.13.4' ],
+162 silly audit   'on-finished': [ '2.4.1' ],
+162 silly audit   once: [ '1.4.0' ],
+162 silly audit   'p-limit': [ '3.1.0' ],
+162 silly audit   parseurl: [ '1.3.3' ],
+162 silly audit   'path-to-regexp': [ '8.3.0' ],
+162 silly audit   'proto3-json-serializer': [ '2.0.2' ],
+162 silly audit   protobufjs: [ '7.5.4' ],
+162 silly audit   'proxy-addr': [ '2.0.7' ],
+162 silly audit   qs: [ '6.14.0' ],
+162 silly audit   'range-parser': [ '1.2.1' ],
+162 silly audit   'raw-body': [ '3.0.1' ],
+162 silly audit   'readable-stream': [ '3.6.2' ],
+162 silly audit   'require-directory': [ '2.1.1' ],
+162 silly audit   retry: [ '0.13.1' ],
+162 silly audit   'retry-request': [ '7.0.2' ],
+162 silly audit   router: [ '2.2.0' ],
+162 silly audit   'safe-buffer': [ '5.2.1' ],
+162 silly audit   'safer-buffer': [ '2.1.2' ],
+162 silly audit   semver: [ '7.7.3' ],
+162 silly audit   send: [ '1.2.0' ],
+162 silly audit   'serve-static': [ '2.2.0' ],
+162 silly audit   setprototypeof: [ '1.2.0' ],
+162 silly audit   'side-channel': [ '1.1.0' ],
+162 silly audit   'side-channel-list': [ '1.0.0' ],
+162 silly audit   'side-channel-map': [ '1.0.1' ],
+162 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+162 silly audit   'stream-events': [ '1.0.5' ],
+162 silly audit   'stream-shift': [ '1.0.3' ],
+162 silly audit   string_decoder: [ '1.3.0' ],
+162 silly audit   'string-width': [ '4.2.3' ],
+162 silly audit   'strip-ansi': [ '6.0.1' ],
+162 silly audit   strnum: [ '1.1.2' ],
+162 silly audit   stubs: [ '3.0.0' ],
+162 silly audit   'teeny-request': [ '9.0.0' ],
+162 silly audit   toidentifier: [ '1.0.1' ],
+162 silly audit   tr46: [ '0.0.3' ],
+162 silly audit   tslib: [ '2.8.1' ],
+162 silly audit   'type-is': [ '2.0.1' ],
+162 silly audit   'undici-types': [ '6.21.0' ],
+162 silly audit   unpipe: [ '1.0.0' ],
+162 silly audit   'util-deprecate': [ '1.0.2' ],
+162 silly audit   vary: [ '1.1.2' ],
+162 silly audit   'webidl-conversions': [ '3.0.1' ],
+162 silly audit   'websocket-driver': [ '0.7.4' ],
+162 silly audit   'websocket-extensions': [ '0.1.4' ],
+162 silly audit   'whatwg-url': [ '5.0.0' ],
+162 silly audit   'wrap-ansi': [ '7.0.0' ],
+162 silly audit   wrappy: [ '1.0.2' ],
+162 silly audit   y18n: [ '5.0.8' ],
+162 silly audit   yallist: [ '4.0.0' ],
+162 silly audit   yargs: [ '17.7.2' ],
+162 silly audit   'yargs-parser': [ '21.1.1' ],
+162 silly audit   'yocto-queue': [ '0.1.0' ],
+162 silly audit   nodemon: [ '3.1.10' ],
+162 silly audit   chokidar: [ '3.6.0' ],
+162 silly audit   'ignore-by-default': [ '1.0.1' ],
+162 silly audit   minimatch: [ '3.1.2' ],
+162 silly audit   'pstree.remy': [ '1.1.8' ],
+162 silly audit   'simple-update-notifier': [ '2.0.0' ],
+162 silly audit   'supports-color': [ '5.5.0' ],
+162 silly audit   touch: [ '3.1.1' ],
+162 silly audit   undefsafe: [ '2.0.5' ],
+162 silly audit   anymatch: [ '3.1.3' ],
+162 silly audit   braces: [ '3.0.3' ],
+162 silly audit   fsevents: [ '2.3.3' ],
+162 silly audit   'glob-parent': [ '5.1.2' ],
+162 silly audit   'is-binary-path': [ '2.1.0' ],
+162 silly audit   'is-glob': [ '4.0.3' ],
+162 silly audit   'normalize-path': [ '3.0.0' ],
+162 silly audit   readdirp: [ '3.6.0' ],
+162 silly audit   picomatch: [ '2.3.1' ],
+162 silly audit   'fill-range': [ '7.1.1' ],
+162 silly audit   'to-regex-range': [ '5.0.1' ],
+162 silly audit   'binary-extensions': [ '2.3.0' ],
+162 silly audit   'is-extglob': [ '2.1.1' ],
+162 silly audit   'brace-expansion': [ '1.1.12' ],
+162 silly audit   'balanced-match': [ '1.0.2' ],
+162 silly audit   'concat-map': [ '0.0.1' ],
+162 silly audit   'has-flag': [ '3.0.0' ],
+162 silly audit   'is-number': [ '7.0.0' ]
+162 silly audit }
+163 verbose reify failed optional dependency C:\dev\movie-review-app\server\node_modules\fsevents
+164 silly reify mark deleted [ 'C:\\dev\\movie-review-app\\server\\node_modules\\fsevents' ]
+165 http cache is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 0ms (cache hit)
+166 http cache has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 0ms (cache hit)
+167 http cache concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 0ms (cache hit)
+168 http cache balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 0ms (cache hit)
+169 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz 0ms (cache hit)
+170 http cache is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 0ms (cache hit)
+171 http cache binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 0ms (cache hit)
+172 http cache fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 0ms (cache hit)
+173 http cache to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 0ms (cache hit)
+174 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+175 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+176 http cache normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 0ms (cache hit)
+177 http cache is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 0ms (cache hit)
+178 http cache is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 0ms (cache hit)
+179 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+180 http cache braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 0ms (cache hit)
+181 http cache anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 0ms (cache hit)
+182 http cache undefsafe@https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz 0ms (cache hit)
+183 http cache touch@https://registry.npmjs.org/touch/-/touch-3.1.1.tgz 0ms (cache hit)
+184 http cache pstree.remy@https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz 0ms (cache hit)
+185 http cache simple-update-notifier@https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz 0ms (cache hit)
+186 http cache supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 0ms (cache hit)
+187 http cache minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 0ms (cache hit)
+188 http cache ignore-by-default@https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz 0ms (cache hit)
+189 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+190 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+191 silly tarball no local data for concat-map@https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz. Extracting by manifest.
+192 silly tarball no local data for balanced-match@https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz. Extracting by manifest.
+193 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz. Extracting by manifest.
+194 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+195 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz. Extracting by manifest.
+196 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz. Extracting by manifest.
+197 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+198 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+199 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+200 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+201 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+202 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+203 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+204 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.3.tgz. Extracting by manifest.
+205 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz. Extracting by manifest.
+206 silly tarball no local data for undefsafe@https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz. Extracting by manifest.
+207 silly tarball no local data for touch@https://registry.npmjs.org/touch/-/touch-3.1.1.tgz. Extracting by manifest.
+208 silly tarball no local data for pstree.remy@https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz. Extracting by manifest.
+209 silly tarball no local data for simple-update-notifier@https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz. Extracting by manifest.
+210 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+211 http cache nodemon@https://registry.npmjs.org/nodemon/-/nodemon-3.1.10.tgz 0ms (cache hit)
+212 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+213 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz. Extracting by manifest.
+214 silly tarball no local data for ignore-by-default@https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz. Extracting by manifest.
+215 silly tarball no local data for nodemon@https://registry.npmjs.org/nodemon/-/nodemon-3.1.10.tgz. Extracting by manifest.
+216 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+217 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 271ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 276ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.3.tgz 453ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 523ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 583ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 631ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz 656ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 690ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz 897ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/touch/-/touch-3.1.1.tgz 904ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 973ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 988ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 990ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 979ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz 1013ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.3.0.tgz 1052ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz 1057ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 1053ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz 1067ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 1066ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz 1049ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz 1098ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 1092ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/simple-update-notifier/-/simple-update-notifier-2.0.0.tgz 1142ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/ignore-by-default/-/ignore-by-default-1.0.1.tgz 1136ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/nodemon/-/nodemon-3.1.10.tgz 1226ms (cache miss)
+243 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1590ms
+244 silly audit report {}
+245 silly ADD node_modules/is-number
+246 silly ADD node_modules/has-flag
+247 silly ADD node_modules/concat-map
+248 silly ADD node_modules/balanced-match
+249 silly ADD node_modules/brace-expansion
+250 silly ADD node_modules/is-extglob
+251 silly ADD node_modules/binary-extensions
+252 silly ADD node_modules/to-regex-range
+253 silly ADD node_modules/fill-range
+254 silly ADD node_modules/picomatch
+255 silly ADD node_modules/readdirp
+256 silly ADD node_modules/normalize-path
+257 silly ADD node_modules/is-glob
+258 silly ADD node_modules/is-binary-path
+259 silly ADD node_modules/glob-parent
+260 silly ADD node_modules/fsevents
+261 silly ADD node_modules/braces
+262 silly ADD node_modules/anymatch
+263 silly ADD node_modules/undefsafe
+264 silly ADD node_modules/touch
+265 silly ADD node_modules/supports-color
+266 silly ADD node_modules/simple-update-notifier
+267 silly ADD node_modules/pstree.remy
+268 silly ADD node_modules/minimatch
+269 silly ADD node_modules/ignore-by-default
+270 silly ADD node_modules/chokidar
+271 silly ADD node_modules/nodemon
+272 verbose cwd C:\dev\movie-review-app\server
+273 verbose os Windows_NT 10.0.26100
+274 verbose node v24.11.0
+275 verbose npm  v11.6.1
+276 verbose exit 0
+277 info ok

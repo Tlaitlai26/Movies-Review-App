@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\server\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T17_02_23_580Z-
+10 verbose logfile C:\dev\movie-review-app\server\D\npm-cache\_logs\2025-11-02T17_02_23_580Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly package data {
+12 silly package data   name: 'server',
+12 silly package data   version: '1.0.0',
+12 silly package data   description: '',
+12 silly package data   main: 'index.js',
+12 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+12 silly package data   keywords: [],
+12 silly package data   author: '',
+12 silly package data   license: 'ISC',
+12 silly package data   type: 'commonjs'
+12 silly package data }
+13 verbose cwd C:\dev\movie-review-app\server
+14 verbose os Windows_NT 10.0.26100
+15 verbose node v24.11.0
+16 verbose npm  v11.6.1
+17 verbose exit 0
+18 info ok

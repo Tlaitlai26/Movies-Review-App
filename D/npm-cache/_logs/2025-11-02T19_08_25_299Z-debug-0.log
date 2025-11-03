@@ -1,0 +1,399 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-bootstrap bootstrap
+8 verbose argv "install" "react-bootstrap" "bootstrap"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\D\npm-cache\_logs\2025-11-02T19_08_25_299Z-
+10 verbose logfile C:\dev\movie-review-app\D\npm-cache\_logs\2025-11-02T19_08_25_299Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react-bootstrap@*
+16 silly packumentCache full:https://registry.npmjs.org/react-bootstrap cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/react-bootstrap 612ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/react-bootstrap set size:undefined disposed:false
+19 silly fetch manifest @types/react@>=16.14.8
+20 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@types%2freact 638ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+23 silly fetch manifest react@>=16.14.0
+24 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react 229ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/react set size:6220657 disposed:false
+27 silly fetch manifest react-dom@>=16.14.0
+28 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react-dom 3673ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+31 silly fetch manifest bootstrap@*
+32 silly packumentCache full:https://registry.npmjs.org/bootstrap cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/bootstrap 217ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/bootstrap set size:undefined disposed:false
+35 silly fetch manifest @popperjs/core@^2.11.8
+36 silly packumentCache full:https://registry.npmjs.org/@popperjs%2fcore cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 438ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@popperjs%2fcore set size:undefined disposed:false
+39 silly placeDep ROOT bootstrap@5.3.8 OK for:  want: *
+40 silly placeDep ROOT @popperjs/core@2.11.8 OK for: bootstrap@5.3.8 want: ^2.11.8
+41 silly placeDep ROOT react-bootstrap@2.10.10 OK for:  want: *
+42 silly placeDep ROOT react@19.2.0 OK for: react-bootstrap@2.10.10 want: >=16.14.0
+43 silly placeDep ROOT react-dom@19.2.0 OK for: react-bootstrap@2.10.10 want: >=16.14.0
+44 silly fetch manifest warning@^4.0.3
+45 silly packumentCache full:https://registry.npmjs.org/warning cache-miss
+46 silly fetch manifest invariant@^2.2.4
+47 silly packumentCache full:https://registry.npmjs.org/invariant cache-miss
+48 silly fetch manifest classnames@^2.3.2
+49 silly packumentCache full:https://registry.npmjs.org/classnames cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/invariant 397ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/invariant set size:undefined disposed:false
+52 silly fetch manifest prop-types@^15.8.1
+53 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/warning 405ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/warning set size:undefined disposed:false
+56 silly fetch manifest @restart/ui@^1.9.4
+57 silly packumentCache full:https://registry.npmjs.org/@restart%2fui cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/classnames 428ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/classnames set size:undefined disposed:false
+60 silly fetch manifest dom-helpers@^5.2.1
+61 silly packumentCache full:https://registry.npmjs.org/dom-helpers cache-miss
+62 http cache https://registry.npmjs.org/prop-types 35ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/prop-types set size:76747 disposed:false
+64 silly fetch manifest @babel/runtime@^7.24.7
+65 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/dom-helpers 152ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/dom-helpers set size:undefined disposed:false
+68 silly fetch manifest @restart/hooks@^0.4.9
+69 silly packumentCache full:https://registry.npmjs.org/@restart%2fhooks cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 188ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:3239112 disposed:false
+72 silly fetch manifest uncontrollable@^7.2.1
+73 silly packumentCache full:https://registry.npmjs.org/uncontrollable cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/@restart%2fui 342ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/@restart%2fui set size:undefined disposed:false
+76 silly fetch manifest prop-types-extra@^1.1.0
+77 silly packumentCache full:https://registry.npmjs.org/prop-types-extra cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/uncontrollable 376ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/uncontrollable set size:undefined disposed:false
+80 silly fetch manifest @types/prop-types@^15.7.12
+81 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/@restart%2fhooks 467ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/@restart%2fhooks set size:undefined disposed:false
+84 silly fetch manifest react-transition-group@^4.4.5
+85 silly packumentCache full:https://registry.npmjs.org/react-transition-group cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/prop-types-extra 317ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/prop-types-extra set size:undefined disposed:false
+88 silly fetch manifest @types/react-transition-group@^4.4.6
+89 silly packumentCache full:https://registry.npmjs.org/@types%2freact-transition-group cache-miss
+90 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 104ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types set size:undefined disposed:false
+92 silly fetch manifest scheduler@^0.27.0
+93 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/@types%2freact-transition-group 141ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@types%2freact-transition-group set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/react-transition-group 896ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/react-transition-group set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/scheduler 4770ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+100 silly placeDep ROOT @babel/runtime@7.28.4 OK for: react-bootstrap@2.10.10 want: ^7.24.7
+101 silly placeDep ROOT @restart/hooks@0.4.16 OK for: react-bootstrap@2.10.10 want: ^0.4.9
+102 silly placeDep ROOT @restart/ui@1.9.4 OK for: react-bootstrap@2.10.10 want: ^1.9.4
+103 silly placeDep ROOT @types/prop-types@15.7.15 OK for: react-bootstrap@2.10.10 want: ^15.7.12
+104 silly placeDep ROOT @types/react-transition-group@4.4.12 OK for: react-bootstrap@2.10.10 want: ^4.4.6
+105 silly placeDep ROOT @types/react@19.2.2 OK for: @types/react-transition-group@4.4.12 want: *
+106 silly placeDep ROOT classnames@2.5.1 OK for: react-bootstrap@2.10.10 want: ^2.3.2
+107 silly placeDep ROOT dom-helpers@5.2.1 OK for: react-bootstrap@2.10.10 want: ^5.2.1
+108 silly placeDep ROOT invariant@2.2.4 OK for: react-bootstrap@2.10.10 want: ^2.2.4
+109 silly placeDep ROOT prop-types@15.8.1 OK for: react-bootstrap@2.10.10 want: ^15.8.1
+110 silly placeDep ROOT prop-types-extra@1.1.1 OK for: react-bootstrap@2.10.10 want: ^1.1.0
+111 silly placeDep ROOT react-transition-group@4.4.5 OK for: react-bootstrap@2.10.10 want: ^4.4.5
+112 silly placeDep ROOT uncontrollable@7.2.1 OK for: react-bootstrap@2.10.10 want: ^7.2.1
+113 silly placeDep ROOT warning@4.0.3 OK for: react-bootstrap@2.10.10 want: ^4.0.3
+114 silly fetch manifest dequal@^2.0.3
+115 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+116 silly fetch manifest dequal@^2.0.3
+117 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+118 silly fetch manifest dom-helpers@^5.2.0
+119 silly packumentCache full:https://registry.npmjs.org/dom-helpers cache-miss
+120 http cache https://registry.npmjs.org/dom-helpers 41ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/dom-helpers set size:76331 disposed:false
+122 silly fetch manifest @restart/hooks@^0.5.0
+123 silly packumentCache full:https://registry.npmjs.org/@restart%2fhooks cache-miss
+124 http cache https://registry.npmjs.org/@restart%2fhooks 15ms (cache hit)
+125 silly packumentCache full:https://registry.npmjs.org/@restart%2fhooks set size:179485 disposed:false
+126 silly fetch manifest @types/warning@^3.0.3
+127 silly packumentCache full:https://registry.npmjs.org/@types%2fwarning cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/dequal 87ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+130 silly fetch manifest uncontrollable@^8.0.4
+131 silly packumentCache full:https://registry.npmjs.org/uncontrollable cache-miss
+132 http cache https://registry.npmjs.org/uncontrollable 10ms (cache hit)
+133 silly packumentCache full:https://registry.npmjs.org/uncontrollable set size:116012 disposed:false
+134 silly fetch manifest @react-aria/ssr@^3.5.0
+135 silly packumentCache full:https://registry.npmjs.org/@react-aria%2fssr cache-miss
+136 http fetch GET 200 https://registry.npmjs.org/dequal 116ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+138 silly fetch manifest csstype@^3.0.2
+139 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/@types%2fwarning 596ms (cache miss)
+141 silly packumentCache full:https://registry.npmjs.org/@types%2fwarning set size:undefined disposed:false
+142 silly fetch manifest csstype@^3.0.2
+143 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/csstype 561ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+146 silly fetch manifest loose-envify@^1.0.0
+147 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+148 http cache https://registry.npmjs.org/loose-envify 17ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:12559 disposed:false
+150 silly fetch manifest loose-envify@^1.4.0
+151 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-hit
+152 silly fetch manifest object-assign@^4.1.1
+153 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+154 http cache https://registry.npmjs.org/object-assign 16ms (cache hit)
+155 silly packumentCache full:https://registry.npmjs.org/object-assign set size:28988 disposed:false
+156 silly fetch manifest react-is@^16.13.1
+157 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+158 http cache https://registry.npmjs.org/react-is 30ms (cache hit)
+159 silly packumentCache full:https://registry.npmjs.org/react-is set size:5046074 disposed:false
+160 silly fetch manifest react-is@^16.3.2
+161 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+162 http cache https://registry.npmjs.org/react-is 61ms (cache hit)
+163 silly packumentCache full:https://registry.npmjs.org/react-is set size:5046074 disposed:false
+164 silly fetch manifest warning@^4.0.0
+165 silly packumentCache full:https://registry.npmjs.org/warning cache-miss
+166 http cache https://registry.npmjs.org/warning 36ms (cache hit)
+167 silly packumentCache full:https://registry.npmjs.org/warning set size:22942 disposed:false
+168 silly fetch manifest react-lifecycles-compat@^3.0.4
+169 silly packumentCache full:https://registry.npmjs.org/react-lifecycles-compat cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/csstype 1487ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/react-lifecycles-compat 1612ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/react-lifecycles-compat set size:undefined disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/@react-aria%2fssr 2826ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/@react-aria%2fssr set size:undefined disposed:false
+176 silly placeDep ROOT dequal@2.0.3 OK for: @restart/hooks@0.4.16 want: ^2.0.3
+177 silly placeDep ROOT @react-aria/ssr@3.9.10 OK for: @restart/ui@1.9.4 want: ^3.5.0
+178 silly placeDep node_modules/@restart/ui @restart/hooks@0.5.1 OK for: @restart/ui@1.9.4 want: ^0.5.0
+179 silly placeDep ROOT @types/warning@3.0.3 OK for: @restart/ui@1.9.4 want: ^3.0.3
+180 silly placeDep node_modules/@restart/ui uncontrollable@8.0.4 OK for: @restart/ui@1.9.4 want: ^8.0.4
+181 silly fetch manifest @swc/helpers@^0.5.0
+182 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 197ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:631874 disposed:false
+185 silly placeDep ROOT @swc/helpers@0.5.17 OK for: @react-aria/ssr@3.9.10 want: ^0.5.0
+186 silly fetch manifest tslib@^2.8.0
+187 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+188 http cache https://registry.npmjs.org/tslib 29ms (cache hit)
+189 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+190 silly placeDep ROOT tslib@2.8.1 OK for: @swc/helpers@0.5.17 want: ^2.8.0
+191 silly placeDep ROOT csstype@3.1.3 OK for: @types/react@19.2.2 want: ^3.0.2
+192 silly placeDep ROOT loose-envify@1.4.0 OK for: invariant@2.2.4 want: ^1.0.0
+193 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+194 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+195 http cache https://registry.npmjs.org/js-tokens 27ms (cache hit)
+196 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:40514 disposed:false
+197 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+198 silly placeDep ROOT object-assign@4.1.1 OK for: prop-types@15.8.1 want: ^4.1.1
+199 silly placeDep ROOT react-is@16.13.1 OK for: prop-types@15.8.1 want: ^16.13.1
+200 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.0 want: ^0.27.0
+201 silly placeDep ROOT react-lifecycles-compat@3.0.4 OK for: uncontrollable@7.2.1 want: ^3.0.4
+202 silly reify moves {}
+203 silly audit bulk request {
+203 silly audit   asynckit: [ '0.4.0' ],
+203 silly audit   axios: [ '1.13.1' ],
+203 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+203 silly audit   'combined-stream': [ '1.0.8' ],
+203 silly audit   'delayed-stream': [ '1.0.0' ],
+203 silly audit   'dunder-proto': [ '1.0.1' ],
+203 silly audit   'es-define-property': [ '1.0.1' ],
+203 silly audit   'es-errors': [ '1.3.0' ],
+203 silly audit   'es-object-atoms': [ '1.1.1' ],
+203 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+203 silly audit   'follow-redirects': [ '1.15.11' ],
+203 silly audit   'form-data': [ '4.0.4' ],
+203 silly audit   'function-bind': [ '1.1.2' ],
+203 silly audit   'get-intrinsic': [ '1.3.0' ],
+203 silly audit   'get-proto': [ '1.0.1' ],
+203 silly audit   gopd: [ '1.2.0' ],
+203 silly audit   'has-symbols': [ '1.1.0' ],
+203 silly audit   'has-tostringtag': [ '1.0.2' ],
+203 silly audit   hasown: [ '2.0.2' ],
+203 silly audit   'math-intrinsics': [ '1.1.0' ],
+203 silly audit   'mime-db': [ '1.52.0' ],
+203 silly audit   'mime-types': [ '2.1.35' ],
+203 silly audit   'proxy-from-env': [ '1.1.0' ],
+203 silly audit   bootstrap: [ '5.3.8' ],
+203 silly audit   '@popperjs/core': [ '2.11.8' ],
+203 silly audit   'react-bootstrap': [ '2.10.10' ],
+203 silly audit   react: [ '19.2.0' ],
+203 silly audit   'react-dom': [ '19.2.0' ],
+203 silly audit   '@babel/runtime': [ '7.28.4' ],
+203 silly audit   '@restart/hooks': [ '0.4.16', '0.5.1' ],
+203 silly audit   '@restart/ui': [ '1.9.4' ],
+203 silly audit   '@types/prop-types': [ '15.7.15' ],
+203 silly audit   '@types/react-transition-group': [ '4.4.12' ],
+203 silly audit   '@types/react': [ '19.2.2' ],
+203 silly audit   classnames: [ '2.5.1' ],
+203 silly audit   'dom-helpers': [ '5.2.1' ],
+203 silly audit   invariant: [ '2.2.4' ],
+203 silly audit   'prop-types': [ '15.8.1' ],
+203 silly audit   'prop-types-extra': [ '1.1.1' ],
+203 silly audit   'react-transition-group': [ '4.4.5' ],
+203 silly audit   uncontrollable: [ '7.2.1', '8.0.4' ],
+203 silly audit   warning: [ '4.0.3' ],
+203 silly audit   dequal: [ '2.0.3' ],
+203 silly audit   '@react-aria/ssr': [ '3.9.10' ],
+203 silly audit   '@types/warning': [ '3.0.3' ],
+203 silly audit   '@swc/helpers': [ '0.5.17' ],
+203 silly audit   tslib: [ '2.8.1' ],
+203 silly audit   csstype: [ '3.1.3' ],
+203 silly audit   'loose-envify': [ '1.4.0' ],
+203 silly audit   'js-tokens': [ '4.0.0' ],
+203 silly audit   'object-assign': [ '4.1.1' ],
+203 silly audit   'react-is': [ '16.13.1' ],
+203 silly audit   scheduler: [ '0.27.0' ],
+203 silly audit   'react-lifecycles-compat': [ '3.0.4' ]
+203 silly audit }
+204 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+205 http cache react-lifecycles-compat@https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz 0ms (cache hit)
+206 http cache react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 0ms (cache hit)
+207 http cache object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 0ms (cache hit)
+208 http cache js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 0ms (cache hit)
+209 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+210 http cache csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 0ms (cache hit)
+211 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.17.tgz 0ms (cache hit)
+212 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+213 http cache @types/warning@https://registry.npmjs.org/@types/warning/-/warning-3.0.3.tgz 0ms (cache hit)
+214 http cache @react-aria/ssr@https://registry.npmjs.org/@react-aria/ssr/-/ssr-3.9.10.tgz 0ms (cache hit)
+215 http cache dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 0ms (cache hit)
+216 http cache warning@https://registry.npmjs.org/warning/-/warning-4.0.3.tgz 0ms (cache hit)
+217 http cache uncontrollable@https://registry.npmjs.org/uncontrollable/-/uncontrollable-7.2.1.tgz 0ms (cache hit)
+218 http cache react-transition-group@https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz 0ms (cache hit)
+219 http cache prop-types-extra@https://registry.npmjs.org/prop-types-extra/-/prop-types-extra-1.1.1.tgz 0ms (cache hit)
+220 http cache prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 0ms (cache hit)
+221 http cache invariant@https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz 0ms (cache hit)
+222 http cache dom-helpers@https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz 0ms (cache hit)
+223 http cache classnames@https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz 0ms (cache hit)
+224 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz 0ms (cache hit)
+225 http cache @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz 0ms (cache hit)
+226 http cache @restart/hooks@https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.16.tgz 0ms (cache hit)
+227 http cache @types/react-transition-group@https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.12.tgz 0ms (cache hit)
+228 http cache @restart/ui@https://registry.npmjs.org/@restart/ui/-/ui-1.9.4.tgz 0ms (cache hit)
+229 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz 0ms (cache hit)
+230 http cache react@https://registry.npmjs.org/react/-/react-19.2.0.tgz 0ms (cache hit)
+231 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz 0ms (cache hit)
+232 http cache react-bootstrap@https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.10.10.tgz 0ms (cache hit)
+233 http cache @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 0ms (cache hit)
+234 http cache uncontrollable@https://registry.npmjs.org/uncontrollable/-/uncontrollable-8.0.4.tgz 0ms (cache hit)
+235 http cache bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz 0ms (cache hit)
+236 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz. Extracting by manifest.
+237 silly tarball no local data for react-lifecycles-compat@https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz. Extracting by manifest.
+238 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz. Extracting by manifest.
+239 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+240 http cache @restart/hooks@https://registry.npmjs.org/@restart/hooks/-/hooks-0.5.1.tgz 0ms (cache hit)
+241 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+242 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+243 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+244 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.17.tgz. Extracting by manifest.
+245 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+246 silly tarball no local data for @types/warning@https://registry.npmjs.org/@types/warning/-/warning-3.0.3.tgz. Extracting by manifest.
+247 silly tarball no local data for @react-aria/ssr@https://registry.npmjs.org/@react-aria/ssr/-/ssr-3.9.10.tgz. Extracting by manifest.
+248 silly tarball no local data for dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz. Extracting by manifest.
+249 silly tarball no local data for warning@https://registry.npmjs.org/warning/-/warning-4.0.3.tgz. Extracting by manifest.
+250 silly tarball no local data for uncontrollable@https://registry.npmjs.org/uncontrollable/-/uncontrollable-7.2.1.tgz. Extracting by manifest.
+251 silly tarball no local data for react-transition-group@https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz. Extracting by manifest.
+252 silly tarball no local data for prop-types-extra@https://registry.npmjs.org/prop-types-extra/-/prop-types-extra-1.1.1.tgz. Extracting by manifest.
+253 silly tarball no local data for prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz. Extracting by manifest.
+254 silly tarball no local data for invariant@https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz. Extracting by manifest.
+255 silly tarball no local data for dom-helpers@https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz. Extracting by manifest.
+256 silly tarball no local data for classnames@https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz. Extracting by manifest.
+257 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz. Extracting by manifest.
+258 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz. Extracting by manifest.
+259 silly tarball no local data for @restart/hooks@https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.16.tgz. Extracting by manifest.
+260 silly tarball no local data for @types/react-transition-group@https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.12.tgz. Extracting by manifest.
+261 silly tarball no local data for @restart/ui@https://registry.npmjs.org/@restart/ui/-/ui-1.9.4.tgz. Extracting by manifest.
+262 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz. Extracting by manifest.
+263 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.0.tgz. Extracting by manifest.
+264 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz. Extracting by manifest.
+265 silly tarball no local data for react-bootstrap@https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.10.10.tgz. Extracting by manifest.
+266 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz. Extracting by manifest.
+267 silly tarball no local data for uncontrollable@https://registry.npmjs.org/uncontrollable/-/uncontrollable-8.0.4.tgz. Extracting by manifest.
+268 silly tarball no local data for bootstrap@https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz. Extracting by manifest.
+269 silly tarball no local data for @restart/hooks@https://registry.npmjs.org/@restart/hooks/-/hooks-0.5.1.tgz. Extracting by manifest.
+270 http fetch GET 200 https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz 399ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 631ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.5.tgz 775ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/@types/warning/-/warning-3.0.3.tgz 2448ms (cache miss)
+274 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 3085ms
+275 silly audit report {}
+276 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 3642ms (cache miss)
+277 http fetch GET 200 https://registry.npmjs.org/warning/-/warning-4.0.3.tgz 3723ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 3766ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 3786ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz 3770ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 3820ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/@types/react-transition-group/-/react-transition-group-4.4.12.tgz 3950ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz 3994ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 4067ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 4112ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 4124ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 4227ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/@react-aria/ssr/-/ssr-3.9.10.tgz 4373ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/uncontrollable/-/uncontrollable-7.2.1.tgz 4809ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz 5263ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/uncontrollable/-/uncontrollable-8.0.4.tgz 7194ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/prop-types-extra/-/prop-types-extra-1.1.1.tgz 7277ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.0.tgz 8034ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.2.2.tgz 8158ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/@restart/ui/-/ui-1.9.4.tgz 11952ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz 14725ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/@restart/hooks/-/hooks-0.4.16.tgz 14734ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/@restart/hooks/-/hooks-0.5.1.tgz 16934ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/dom-helpers/-/dom-helpers-5.2.1.tgz 17093ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz 19431ms (cache miss)
+301 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.17.tgz 20503ms (cache miss)
+302 http fetch GET 200 https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz 20613ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 20648ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-2.10.10.tgz 21981ms (cache miss)
+305 silly ADD node_modules/react-lifecycles-compat
+306 silly ADD node_modules/scheduler
+307 silly ADD node_modules/react-is
+308 silly ADD node_modules/object-assign
+309 silly ADD node_modules/js-tokens
+310 silly ADD node_modules/loose-envify
+311 silly ADD node_modules/csstype
+312 silly ADD node_modules/tslib
+313 silly ADD node_modules/@swc/helpers
+314 silly ADD node_modules/@types/warning
+315 silly ADD node_modules/@react-aria/ssr
+316 silly ADD node_modules/dequal
+317 silly ADD node_modules/warning
+318 silly ADD node_modules/uncontrollable
+319 silly ADD node_modules/react-transition-group
+320 silly ADD node_modules/prop-types-extra
+321 silly ADD node_modules/prop-types
+322 silly ADD node_modules/invariant
+323 silly ADD node_modules/dom-helpers
+324 silly ADD node_modules/classnames
+325 silly ADD node_modules/@types/react
+326 silly ADD node_modules/@types/react-transition-group
+327 silly ADD node_modules/@types/prop-types
+328 silly ADD node_modules/@restart/ui
+329 silly ADD node_modules/@restart/ui/node_modules/uncontrollable
+330 silly ADD node_modules/@restart/ui/node_modules/@restart/hooks
+331 silly ADD node_modules/@restart/hooks
+332 silly ADD node_modules/@babel/runtime
+333 silly ADD node_modules/react-dom
+334 silly ADD node_modules/react
+335 silly ADD node_modules/react-bootstrap
+336 silly ADD node_modules/@popperjs/core
+337 silly ADD node_modules/bootstrap
+338 verbose cwd C:\dev\movie-review-app
+339 verbose os Windows_NT 10.0.26100
+340 verbose node v24.11.0
+341 verbose npm  v11.6.1
+342 verbose exit 0
+343 info ok

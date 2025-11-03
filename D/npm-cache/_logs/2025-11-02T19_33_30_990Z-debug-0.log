@@ -1,0 +1,38 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\dev\movie-review-app\.npmrc
+5 silly config load:file:C:\Users\Tlaitlai\.npmrc
+6 silly config load:file:C:\Users\Tlaitlai\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm exec react-scripts start
+8 verbose argv "exec" "--" "react-scripts" "start"
+9 verbose logfile logs-max:10 dir:C:\dev\movie-review-app\D\npm-cache\_logs\2025-11-02T19_33_30_990Z-
+10 verbose logfile C:\dev\movie-review-app\D\npm-cache\_logs\2025-11-02T19_33_30_990Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 http fetch GET 200 https://registry.npmjs.org/react-scripts 704ms (cache miss)
+15 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+16 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+17 verbose stack Error: Lock compromised
+17 verbose stack     at AbortSignal.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\libnpmexec\lib\with-lock.js:52:30)
+17 verbose stack     at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)
+17 verbose stack     at AbortSignal.dispatchEvent (node:internal/event_target:778:26)
+17 verbose stack     at runAbort (node:internal/abort_controller:488:10)
+17 verbose stack     at abortSignal (node:internal/abort_controller:459:3)
+17 verbose stack     at AbortController.abort (node:internal/abort_controller:507:5)
+17 verbose stack     at Timeout.touchLock (C:\Program Files\nodejs\node_modules\npm\node_modules\libnpmexec\lib\with-lock.js:161:18)
+18 error code ECOMPROMISED
+19 error Lock compromised
+20 silly unfinished npm timer reify 1762112055428
+21 silly unfinished npm timer reify:loadTrees 1762112055460
+22 silly unfinished npm timer idealTree 1762112055472
+23 silly unfinished npm timer idealTree:init 1762112055474
+24 verbose cwd C:\dev\movie-review-app
+25 verbose os Windows_NT 10.0.26100
+26 verbose node v24.11.0
+27 verbose npm  v11.6.1
+28 verbose exit 1
+29 verbose code 1
+30 error A complete log of this run can be found in: C:\dev\movie-review-app\D\npm-cache\_logs\2025-11-02T19_33_30_990Z-debug-0.log
